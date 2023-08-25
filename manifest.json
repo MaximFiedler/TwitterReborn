@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Twitter Logo Changer",
+  "version": "1.0",
+  "description": "Bring back the twitter logo",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*", "https://x.com/*"],
+      "js": ["build/content.js"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "resources/images/icon16.png",
+      "48": "resources/images/icon48.png",
+      "128": "resources/images/icon128.png"
+    }
+  }
+}
