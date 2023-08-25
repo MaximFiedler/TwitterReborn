@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Twitter Logo Changer",
+  "name": "TwitterReborn",
   "version": "1.0",
-  "description": "Bring back the twitter logo",
+  "description": "Bring back the twitter logo and more",
   "permissions": ["activeTab"],
   "content_scripts": [
     {
